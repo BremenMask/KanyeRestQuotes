@@ -1,8 +1,25 @@
 body {
-    background-color: gray;
+    background-image: url(./images/kanyeCollage.png);
+    background-size: cover;
+    background-attachment: fixed;
     color: black;
 } 
 
-.header {
-    color: red;
+.nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
 }
+
+    .nav__quote{
+    color: whitesmoke;
+    }
+
+    .nav__api{
+    color: red;
+    }

@@ -3,11 +3,11 @@ body {
     background-size: cover;
     background-attachment: fixed;
     color: black;
+    margin: 0;
 } 
 
 .nav {
     background-color: black;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -16,10 +16,14 @@ body {
     justify-content: space-around;
 }
 
-    .nav__quote{
+.nav__quote{
     color: whitesmoke;
     }
 
-    .nav__api{
+.nav__api{
     color: red;
-    }
+}
+
+.quoteContainer{
+    color: black;
+}
